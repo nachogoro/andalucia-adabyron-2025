@@ -18,9 +18,9 @@ el borde de la planta.
 
 Los puestos de estudio están representados por el carácter `T`. Estos deben ser
 iluminados (es decir, quedar dentro del alcance de al menos un farol) para que
-los estudiantes puedan trabajar sin problemas. Las casillas vac'ias que no
+los estudiantes puedan trabajar sin problemas. Las casillas vacías que no
 contienen un puesto de estudio se representan con `O`, y las paredes con `X`.
-Cada una de las casillas vac'ias es lo suficientemente grande como para poder
+Cada una de las casillas vacías es lo suficientemente grande como para poder
 colocar uno o dos faroles, y los puestos de estudio poseen una mesa para
 faroles, por lo que también es posible colocar hasta dos faroles en ellos. El
 objetivo es determinar el mínimo número de faroles que deben colocarse para
@@ -40,7 +40,8 @@ respectivamente.
   * `O`: una casilla vacía.
 
 ## Salida
-Para cada caso de prueba, imprime una única línea que contenga un entero: el número mínimo de faroles necesarios para iluminar todos los puestos de estudio.
+Para cada caso de prueba, imprime una única línea que contenga un entero: el
+número mínimo de faroles necesarios para iluminar todos los puestos de estudio.
 
 ## Entrada de ejemplo
 ```

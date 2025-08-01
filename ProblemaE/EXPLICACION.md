@@ -9,5 +9,5 @@ El coste de realizar $q$ consultas será $O(q \cdot \log2(n)) $.
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-|          |                        |
+| [E.cpp](src/E.cpp) | :x:          |
 

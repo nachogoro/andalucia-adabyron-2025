@@ -33,7 +33,7 @@ $m=0$ clientes o $n=0$ vales.
 
 ## Salida
 Por cada caso de prueba se escribirá una línea con el número de vales que
-recibirás los respectivos clientes de la entrada.
+recibirán los respectivos clientes de la entrada.
 
 ## Entrada de ejemplo
 ```

@@ -26,7 +26,7 @@ empiezan en $i$ cumplen las condiciones impuestas:
 - Contienen **estrictamente menos de** $M$ nucleótidos de tipo A **y** T.
 
 Esto se puede reinterpretar como una ventana deslizante cuyo extremo derecho
-$j$ varía en el rango $i + K_{\text{min}}, \min(i + K_{\text{max}}, L)]$.
+$j$ varía en el rango $[i + K_{\text{min}}, \min(i + K_{\text{max}}, L)]$.
 
 En dicho rango de posibles $j$, podemos hacer dos búsquedas binarias:
 

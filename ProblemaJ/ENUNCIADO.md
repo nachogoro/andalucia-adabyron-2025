@@ -56,8 +56,10 @@ Para la siguiente cuadrícula de entrada:
 ```
 
 El camino óptimo que maximiza la suma de cristales es:
-$$ (0,0) \rightarrow (0,1) \rightarrow (1,2) \rightarrow (2,2) \rightarrow (2,3) \rightarrow (3,3)$$
+$$(0,0) \rightarrow (0,1) \rightarrow (1,2) \rightarrow (2,2) \rightarrow (2,3) \rightarrow (3,3)$$
 
 Correspondiente a los valores $1 \rightarrow 3 \rightarrow 4 \rightarrow 3 \rightarrow 3 \rightarrow 2$
+
 Suma total: $1+3+4+3+3+2=16$
+
 Este es el valor total que debe imprimirse como resultado.

@@ -34,7 +34,7 @@ Queremos un **árbol generador mínimo** (spanning tree) que:
 Haremos una **búsqueda binaria** sobre el valor máximo permitido de una arista
 (la longitud máxima entre nodos), con un límite inferior de $0.0$ y superior de
 $\sqrt{2} \cdot 10^4$, que continuará mientras la diferencia entre candidatos
-sea mayor que $\epsilon = 10^-3$, para garantizar que el error sea menor que
+sea mayor que $\epsilon = 10^{-3}$, para garantizar que el error sea menor que
 $0.05$.
 
 Para cada candidato:
@@ -50,16 +50,10 @@ Para cada candidato:
 3. La búsqueda binaria nos permite encontrar el mínimo posible valor del mayor
    trayecto.
 
-### Búsqueda binaria
-
-- Límite inferior: $0.0$
-- Límite superior: la distancia máxima entre dos nodos del problema (≈ 14142 si
-  el plano es de $[0,10^4] \times [0,10^4]$)
-- Precisión: hasta dos decimales
-
 # Soluciones
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
+| [K.cpp](src/K.cpp) | :x:          |
 |          |                        |
 

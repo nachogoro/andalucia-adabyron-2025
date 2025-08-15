@@ -7,8 +7,8 @@ posible desde la posición inicial $(0, 0)$ hasta la celda $(x,y)$ como $g(x,y)$
 - **Caso general:** si $(x,y) \neq (0,0)$, entonces
 $g(x,y) = m(x,y) + \max(g(x,y-1), g(x-1,y), g(x-1,y-1))$.
 
-Es decir, si conocemos la ganancia máxima acumulada hasta la casilla derecha,
-superior y en diagonal superior-derecha a una casilla dada $c$, podemos
+Es decir, si conocemos la ganancia máxima acumulada hasta la casilla izquierda,
+superior y en diagonal superior-izquierda a una casilla dada $c$, podemos
 encontrar la ganancia máxima posible hasta $c$ tomando la mayor de ellas y
 añadiéndole los cristales obtenidos al pasar por $c$.
 

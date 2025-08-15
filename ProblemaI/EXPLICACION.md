@@ -41,17 +41,29 @@ A partir de $i = 2$ en adelante:
 \end{align*}
 ```
 
-La idea es que para una columna concreta, hay dos cuatro posibilidades:
-1. Tomar la flor de la fila superior, si en la columna anterior elegimos la
+La idea es que para una columna concreta $i$, hay dos cuatro posibilidades:
+1. Tomar la flor de la fila superior, si en la columna $i-1$ elegimos la
    fila inferior.
-2. Tomar la flor de la fila superior, si en la columna anterior no tomamos
-   ninguna flor (si hubiésiemos tomado la de la fila superior, en la anterior
-tomaríamos la inferior y es el caso 1).
+2. Tomar la flor de la fila superior, si en la columna $i-1$ no tomamos
+   ninguna flor. Sólo tendría sentido no tomar ninguna flor en la columna
+   $i-1$ si eso fuese incompatible con elegir la mejor opción en la columna
+   $i-2$. Puesto que en la columna $i$ estamos tomando la flor de la fila
+   superior, la mejor opción en $i-2$ debe ser la fila inferior (porque si la
+   mejor opción de la columna $i-2$ fuese la fila superior, podríamos coger la
+   fila inferior en $i-1$, que es el caso 1). Por lo tanto, esta opción se puede
+   expresar como tomar la flor de la fila superior, si en la columna $i-2$
+   tomamos la flor de la fila inferior.
 3. Tomar la flor de la fila inferior, si en la columna anterior elegimos la
    fila superior.
-4. Tomar la flor de la fila inferior, si en la columna anterior no tomamos
-   ninguna flor (si hubiésiemos tomado la de la fila inferior, en la
-anterior tomaríamos la superior y es el caso 3).
+4. Tomar la flor de la fila inferior, si en la columna $i-1$ no tomamos
+   ninguna flor. Sólo tendría sentido no tomar ninguna flor en la columna
+   $i-1$ si eso fuese incompatible con elegir la mejor opción en la columna
+   $i-2$. Puesto que en la columna $i$ estamos tomando la flor de la fila
+   inferior, la mejor opción en $i-2$ debe ser la fila superior (porque si la
+   mejor opción de la columna $i-2$ fuese la fila inferior, podríamos coger la
+   fila superior en $i-1$, que es el caso 3). Por lo tanto, esta opción se puede
+   expresar como tomar la flor de la fila inferior, si en la columna $i-2$
+   tomamos la flor de la fila superior.
 
 ## Resultado
 

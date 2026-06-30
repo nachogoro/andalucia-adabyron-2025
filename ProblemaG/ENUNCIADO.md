@@ -33,7 +33,7 @@ siguiente forma:
   \leq 10^6 \text{, } 1 \leq K_{min} \leq K_{max} \leq L \text{, } 0 \leq N
 \leq K_{min} \text{, } 1 \leq M \leq K_{min} + 1$ ), donde:
     - $L$ es la longitud de la cadena de ADN.
-    - $K_{min} y K_{max}$ definen el rango de tamaños de subsecuencias a
+    - $K_{min}$ y $K_{max}$ definen el rango de tamaños de subsecuencias a
       analizar, ambos incluidos.
     - $N$ es el umbral mínimo requerido para cada uno de los nucleótidos G y C
       (la cantidad debe ser mayor o igual a $N$).
